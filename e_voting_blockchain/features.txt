@@ -1,0 +1,28 @@
+Project requirements:
+1.	Login page //done
+2.	Two section admin and voter //done
+3.	Register page //done
+4.	OTP verification
+5.	Use of voter id //done
+6.	We need website //done
+7.	Information about candidate //done
+8.	Information about voter //done
+9.	Dynamic website //done
+10.	Block vote card
+11.	Proof of vote           
+12.	One time vote //done
+13.	Multiple voters can vote using one system //done
+14.	At the end it will be show the result
+15.	Who wins
+16.	After the election people review on the winner candidate
+17.	Election region wise //done
+18.	eligibility criteria (DOB) //done
+19.	login and registration database of voter and candidate //done
+20.	use of ganache //not possible
+21.	candidates information like party, party symbol
+22.	permanent vote storing //done
+23.	dashboard of result
+24.	adding candidates option for admin //done
+25.    Forget password
+
+Project name: secure digital system on blockchain

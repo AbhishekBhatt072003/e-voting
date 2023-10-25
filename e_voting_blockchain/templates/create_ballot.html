@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block title %}Add Ballot{% endblock title %}
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        <label for="title">Ballot Title:</label>
+        <input type="text" id="title" name="title" required><br>
+        
+        <input type="submit" value="Create Ballot">
+    </form>
+{% endblock content %}

@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+{% block title %}{% endblock title %}
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="usernmae" placeholder="Enter Username"/>
+        <input type="password" name="password" placeholder="Enter password"/>
+        <input type="text" name="first_name" placeholder="Enter your first name"/>
+        <input type="text" name="last_name" placeholder="Enter your last name"/>
+        <input type="date" name="date_of_birth" placeholder="Enter your Date of Birth"/>
+        <select name="user_type">
+            <option value="admin">Admin</option>
+            <option value="voter">Voter</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+{% endblock content %}

@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block title %}Create Election{% endblock title %}
+{% block content %}
+    <form method="post">
+        <input type="text" name="name" placeholder="Enter the name"/>
+        <input type="date" name="start_date" placeholder="Enter the Starting date"/>
+        <input type="date" name="end_date" placeholder="Enter the Ending date"/>
+        <button type="submit">Add Election</button>
+    </form>
+{% endblock content %}

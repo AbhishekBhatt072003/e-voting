@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block title %}Candidate Registration{% endblock title %}
+{% block content %}
+    <form method="post">
+        <input type="text" name="first_name" placeholder="Enter First Name"/>
+        <input type="text" name="last_name" placeholder="Enter Last Name"/>
+        <input type="date" name="date_of_birth" placeholder="Enter Date of Birth" />
+        <input type="text" name="group_name" placeholder="Enter the group name">
+        <button type="submit">Add Candidate</button>
+    </form>
+{% endblock content %}
