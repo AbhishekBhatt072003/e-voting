@@ -1,14 +1,15 @@
 {% extends 'main.html' %}
 {% block title %}Issue Vote{% endblock title %}
 {% block content %}
-    <form method="post">
-        {% csrf_token %}
-        <h2>Vote in {{ ballot.title }}</h2>
-        <label>Select a candidate</label>
-        <select>
-            {% for candidate in candidates %}
-                <option value="{{candidate.id}}">{{ candidate.first_name }}  {{ candidate.last_name }} ({{candidate.group_name}})</option>
-            {% endfor %}
-        </select>
-    </form>
+<form method="post">
+    {% csrf_token %}
+    <h2>Vote in {{ ballot.title }}</h2>
+    <label>Select a candidate</label>
+    <select>
+        {% for candidate in candidates %}
+        <option value="{{candidate.id}}">{{ candidate.first_name }} {{ candidate.last_name }} ({{candidate.group_name}})
+        </option>
+        {% endfor %}
+    </select>
+</form>
 {% endblock content %}
